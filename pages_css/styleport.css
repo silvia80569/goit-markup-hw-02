@@ -11,23 +11,41 @@
 	--grey: rgba(46, 47, 66, 0.7);
 	--white: #fff;
 	--dairy: #fcfcfc;
-}
+    --font-family: "Roboto", sans-serif;
+    --second-family: "Raleway", sans-serif;
+  }
 
-body {
-    font-family: "Roboto", "Raleway", sans-serif;
+body{
+    background-color: var(--white);
+    font-family: var(--font-family),var(--second-family);
+  }
+  * {
+    text-decoration: none;
+  }
+
+ .global-header .nav-portofolio a:hover,
+  a:focus {
+    color: var(--ocean);
+    cursor: pointer;
+  }
+
+  ul {
+    list-style-type: none;
   }
 
   .list-nav {
     color: var(--navy-blue);
+    font-style: var(--font-family);
+    font-size: medium;
+    display: flex;
   }
 
   .email,
   .tel {
     color: var(--slate);
   }
-
   hr {
-    color: red;
+    color: var(--cornflower);
   }
 
   .button {
@@ -40,7 +58,16 @@ body {
 
   .button:focus,
   .button:hover {
-    color: var(--cornflower) ;
+    color: var(--cornflower);
+  }
+
+  .list-button {
+    display: flex;
+  }
+
+  .all:hover,
+  .all:focus {
+    color: var(--ocean);
   }
 
   .all {
@@ -48,10 +75,15 @@ body {
     color: var(--white);
   }
 
+  .list-projects {
+    display: flex;
+  }
+
   .list-item-img {
     width: 360px;
     height: 420px;
     border: solid  var(--cornflower);
+    color: var(--navy-blue);
   }
 
   .img {
@@ -59,7 +91,24 @@ body {
     height: 300px;
   }
 
+  .header {
+    color:var(--navy-blue);
+  }
+  
+  .text-img {
+    color: var(--slate);
+  }
+
+
   .footer {
+    height: 312px;
     background-color: var(--navy-blue);
-    color: var(--white);
+    color: var(--cloud);
+    text-align: left;
+  }
+  .blue {
+    color:blue;
+  }
+  .clud {
+    color: var(--cloud);
   }

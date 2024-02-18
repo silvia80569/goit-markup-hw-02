@@ -1,0 +1,104 @@
+:root {
+	--iris: #4d5ae5;
+	--ocean: #404bbf;
+	--navy-blue: #2e2f42;
+	--green: #31d0aa;
+	--slate: #434455;
+	--light-slate: #8e8f99;
+	--cornflower: #e7e9fc;
+	--cloud: #f4f4fd;
+	--navy-blue-modal: rgba(46, 47, 66, 0.4);
+	--grey: rgba(46, 47, 66, 0.7);
+	--white: #fff;
+	--dairy: #fcfcfc;
+    --font-family: "Roboto", sans-serif;
+    --second-family: "Raleway", sans-serif;
+  }
+body {
+    background-color: white;
+    font-family: var(--font-family);
+}
+
+* {
+	text-decoration: none;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.global-header .nav a:hover,
+a:focus {
+  color: var(--ocean);
+  cursor: pointer;
+}
+
+.nav-list {
+	display: flex;
+}
+
+.hero-image {
+	background-color: var(--navy-blue);
+	color: var(--white);
+	width: 1440px;
+	height: 600px;
+	text-align: center;
+}
+
+.hero-button {
+	background-color: var(--iris);
+	color: var(--white);
+	width: 169px;
+	height: 56px;
+	text-align: center;
+}
+
+.hero-button:hover {
+	background-color:var(--light-slate) ;
+}
+
+.list-skils {
+	display: flex;
+}
+
+.title-skils {
+	color: var(--navy-blue);
+}
+
+.text-skils {
+	color: var(--slate);
+}
+
+.header {
+	color: var(--navy-blue);
+	text-align: center;
+}
+
+.list-img {
+	display: flex;
+}
+
+.our-team {
+	background-color: var(--cloud);
+}
+
+.list-photo {
+	display: flex;
+}
+.photo {
+	border: none;
+	background-color: var(--white);
+}
+
+.footer {
+    height: 312px;
+    background-color: var(--navy-blue);
+    color: var(--cloud);
+    text-align: left;
+  }
+  .blue {
+    color:blue;
+  }
+  .clud {
+    color: var(--cloud);
+  }
