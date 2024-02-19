@@ -17,16 +17,14 @@
 
 body{
     background-color: var(--white);
-    font-family: var(--font-family),var(--second-family);
-  }
-  * {
+    font-family: var(--font-family);
+    line-height: 1.5;
     text-decoration: none;
   }
 
  .global-header .nav-portofolio a:hover,
   a:focus {
     color: var(--ocean);
-    cursor: pointer;
   }
 
   ul {
@@ -59,6 +57,7 @@ body{
   .button:focus,
   .button:hover {
     color: var(--cornflower);
+    cursor: pointer;
   }
 
   .list-button {
@@ -80,8 +79,6 @@ body{
   }
 
   .list-item-img {
-    width: 360px;
-    height: 420px;
     border: solid  var(--cornflower);
     color: var(--navy-blue);
   }
@@ -111,4 +108,9 @@ body{
   }
   .clud {
     color: var(--cloud);
+  }
+  .text-footer {
+    width: 264px;
+    height: 72px;
+
   }

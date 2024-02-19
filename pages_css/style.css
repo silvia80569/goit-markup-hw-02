@@ -30,7 +30,6 @@ ul {
 .global-header .nav a:hover,
 a:focus {
   color: var(--ocean);
-  cursor: pointer;
 }
 
 .nav-list {
@@ -40,8 +39,6 @@ a:focus {
 .hero-image {
 	background-color: var(--navy-blue);
 	color: var(--white);
-	width: 1440px;
-	height: 600px;
 	text-align: center;
 }
 
@@ -51,6 +48,7 @@ a:focus {
 	width: 169px;
 	height: 56px;
 	text-align: center;
+	cursor: pointer;
 }
 
 .hero-button:hover {
@@ -91,14 +89,15 @@ a:focus {
 }
 
 .footer {
-    height: 312px;
     background-color: var(--navy-blue);
     color: var(--cloud);
     text-align: left;
   }
+
   .blue {
     color:blue;
   }
+
   .clud {
     color: var(--cloud);
   }
