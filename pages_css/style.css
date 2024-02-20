@@ -13,27 +13,31 @@
 	--dairy: #fcfcfc;
     --font-family: "Roboto", sans-serif;
     --second-family: "Raleway", sans-serif;
-  }
+}
+
 body {
     background-color: white;
     font-family: var(--font-family);
-}
-
-* {
-	text-decoration: none;
+	line-height: 1.5;
 }
 
 ul {
-	list-style-type: none;
+  list-style-type: none;
 }
 
-.global-header .nav a:hover,
+.global-header .nav-list a:hover,
 a:focus {
   color: var(--ocean);
 }
 
-.nav-list {
-	display: flex;
+.nav-list a {
+  color: var(--navy-blue);
+  font-size: medium;
+  text-decoration: none;
+}
+.email,.tel {
+  color: var(--slate);
+  text-decoration: none;
 }
 
 .hero-image {
@@ -56,7 +60,7 @@ a:focus {
 }
 
 .list-skils {
-	display: flex;
+  display: flex;
 }
 
 .title-skils {
@@ -67,7 +71,7 @@ a:focus {
 	color: var(--slate);
 }
 
-.header {
+.title {
 	color: var(--navy-blue);
 	text-align: center;
 }
@@ -76,7 +80,7 @@ a:focus {
 	display: flex;
 }
 
-.our-team {
+.section-our-team {
 	background-color: var(--cloud);
 }
 
@@ -91,7 +95,6 @@ a:focus {
 .footer {
     background-color: var(--navy-blue);
     color: var(--cloud);
-    text-align: left;
   }
 
   .blue {
@@ -101,3 +104,52 @@ a:focus {
   .clud {
     color: var(--cloud);
   }
+
+  .text-footer {
+    width: 264px;
+    height: 72px;
+  }
+
+  .button {
+    width: 69px;
+    height: 48px;
+    background-color: var(--cloud);
+    color: var(--ocean);
+    border: none;
+  }
+
+  .button:focus,
+  .button:hover {
+    color: var(--cornflower);
+    cursor: pointer;
+  }
+
+  .button-first {
+    background-color: var(--iris);
+    color: var(--cloud);
+  }
+
+  .button-first:hover,
+  .button-first:focus {
+    color: var(--ocean)S;
+    cursor: pointer;
+  }
+
+  .list-item-img {
+    border: solid  var(--cornflower);
+    color: var(--navy-blue);
+  }
+
+  .img {
+    width: 360px;
+    height: 300px;
+  }
+
+  .title-img {
+    color:var(--navy-blue);
+  }
+  
+  .text-img {
+    color: var(--slate);
+  }
+
