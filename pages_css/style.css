@@ -110,6 +110,10 @@ a:focus {
     height: 72px;
   }
 
+  .list-button {
+    display: flex;
+  }
+
   .button {
     width: 69px;
     height: 48px;
@@ -133,6 +137,10 @@ a:focus {
   .button-first:focus {
     color: var(--ocean)S;
     cursor: pointer;
+  }
+
+  .list-projects {
+    display: flex;
   }
 
   .list-item-img {
